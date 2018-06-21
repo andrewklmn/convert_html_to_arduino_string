@@ -1,6 +1,6 @@
 # HTML to Arduino string variable converter
-This script converts HTML code to C++ string variables and adds arduino webserver answer command like this: 
-## Source HTML code:
+This script converts HTML code to C++ string variables and adds arduino esp8266 webserver answer command like this: 
+## Source HTML code (index.html):
 ```
 <html>
   <body>
@@ -10,7 +10,7 @@ This script converts HTML code to C++ string variables and adds arduino webserve
 </html>
 ```
 
-## Result Arduino code:
+## Result Arduino code(index.c):
 ```
  String message0 = "<html> \
    <body> \
@@ -25,3 +25,8 @@ This script converts HTML code to C++ string variables and adds arduino webserve
    server.send(200, "text/html", message0 );
    server.sendContent( message1 );
 ```
+## Usage:
+php -f convert_html_to_arduino_string.php index.html
+
+## HTML Restriction!
+Do not use // comments in javascript! only this one /* */
