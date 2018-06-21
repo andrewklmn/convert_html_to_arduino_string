@@ -29,7 +29,7 @@ This script converts HTML code to C++ string variables and adds arduino esp8266 
 
 php -f convert_html_to_arduino_string.php index.html
 
-result file with arduino code will have same name with .c extension.
+result file with arduino code will have same name with .cpp extension.
 
 
 ## HTML Restriction!
