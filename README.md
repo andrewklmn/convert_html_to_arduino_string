@@ -1,5 +1,5 @@
 # HTML to Arduino string variable converter
-This script converts HTML code to C++ string variables and adds arduino esp8266 webserver answer command like this: 
+This script converts HTML code to C++ string variables and adds arduino esp8266 webserver answer command like this:
 ## Source HTML code (index.html):
 ```
 <html>
@@ -15,7 +15,7 @@ This script converts HTML code to C++ string variables and adds arduino esp8266 
  String message0 = "<html> \
    <body> \
     <h1><Header/h1>";
-    
+
  String message1 = <p>some text</p> \
   </body> \
 </html> \
