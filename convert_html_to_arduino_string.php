@@ -59,7 +59,7 @@ if ( $argc == 1  ) {
   server.sendContent( message6 );
 */      
         
-        file_put_contents($t[0].'.c', 
+        file_put_contents($t[0].'.cpp', 
                 implode($vars,"\r\n")."\r\n\r\n"
                 .implode($parts, "")
                 ."\r\n   server.setContentLength( "
