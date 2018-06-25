@@ -48,7 +48,7 @@ if ( $argc == 1  ) {
                 .$length_str." );\r\r\n"
                 .$send_content
         );
-        echo "File ",$t[0],".c was writed.\r\n";
+        echo "File ",$t[0],".cpp was writed.\r\n";
         exit(0);
 
     } else {
